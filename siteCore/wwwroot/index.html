@@ -1,0 +1,289 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/StyleSheet.css" rel="stylesheet" />
+ 
+    
+    <title>Bootstrap Example</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:white">Sapienza's Auction</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" style="color:white">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color:black">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:black">Explore</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:black">
+                                Auctions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Buy</a></li>
+                                <li><a class="dropdown-item" href="#">Sell</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Private Sales</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search Auction" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit" style="color:white">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bootstrap/img/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="bootstrap/img/2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="bootstrap/img/3.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="col-md-6 mb-3" style="color: red">New Listings</h3>
+                    </div>
+                    <div class="text-lg-end">
+                        <a class="btn btn-danger mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-danger mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+
+
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/4.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        1961 Ferrari 250 GT Cabriolet Series II by Pininfarina
+                                                    </h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        1 - 3 JANUARY 2022
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/5.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        1936 MG NB Magnette Two-Seater
+                                                    </h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        10 - 15 FEBRUARY 2022
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/6.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">1973 Ferrari Dino 246 GTS 'Chairs & Flares' by Scaglietti</h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        28 - 29 MARCH 2022
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/7.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        1938 BMW 328 Roadster
+                                                    </h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        19 - 20 APRIL 2022
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/8.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        1952 Alfa Romeo 6C 2500 GT Villa d'Este Cabriolet by Touring
+                                                    </h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        22 - 24 APRIL 2022
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/9.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">1936 Delage D6-70 Milord Cabriolet by Figoni et Falaschi</h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        1 - 3 MAY 2022.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/10.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">1928 Bugatti Type 43A Roadster by Lavocat et Marsaud</h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER<BR />
+                                                        7 - 11 MAY 2022.
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/11.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">1988 Ferrari Testarossa</h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER <BR />
+                                                        3 - 5 JUNE 2022
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="bootstrap/img/12.webp">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">1936 Lancia Astura Cabriolet Series III 'Tipo Bocca' by Pinin Farina</h4>
+                                                    <p class="card-text">
+                                                        MONTEREY CONFERENCE CENTER <BR />
+                                                        2 - 4 AUGUST 2022
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <div>
+
+            <hr class="feature-divider" />
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>First Feature Heading</h2>
+                    <span class="text-muted">It'll blow your mind</span>
+                    <p class="lead">
+
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                        Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget.
+                        Sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis lorem eu diam hendrerit at mattis purus dignissim vivamus mauris tellus, fringilla.
+                        Vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo.
+                    </p>
+                    <div class="col-md-5">
+                        <img src="bootstrap/img/4.webp" alt="Alternate Text" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">
+                            And lastly, this one
+                            <span class="fio">
+                                CheckMate
+                            </span>
+                        </h2>
+                        <p class="lead">
+                            Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="bootstrap/img/6.webp" alt="Alternate Text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec44625e08.js" crossorigin="anonymous"></script>
+</body>
+</html>
